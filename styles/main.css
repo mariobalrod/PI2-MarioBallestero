@@ -1,38 +1,26 @@
-.presentacion {
+/* CAROUSEL CSS */
+.presentacion { 
+    margin-top: 50px;
     padding: 50px;
     width: 1010px;
 }
 
 
-/* CSS PARA CARTA DE CONTACTO */
-
-.container_card {
-    width: 100%;
-    position: absolute;
-    top: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1;
-}
-
-.custom_card {
-    padding: 5px;
-}
-
+/* CSS PARA CARTA DE CONTACTO // MODALES (POPUP) */
 .custom_body {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 20px;
 }
 
-.custom_card:last-child {
-    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
-}
-
-.custom_card:not(:last-child) {
-    background: none;
+.button_modal {
+    position:absolute;
+    bottom:0;
+    right:0;
+    margin: 50px;
+    padding: 10px 15px;
 }
 
 .phone {
@@ -44,28 +32,26 @@
 
 .phone_number {
     margin-left: 10px;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 600;
     color: #026CBB;
 }
 
+.phone_number2 {
+    margin-left: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #026CBB;
+}
 
 /* CODIGO PARA RESPONSIVE */
-
 @media only screen and (max-width: 1000px) {
     .presentacion {
         width: auto;
         padding: 0;
     }
 
-    .container_card {
-        width: 100%;
-        position: relative;
-        top: 0;
-        margin-top: 30px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
+    .button_modal {
+        margin: 20px;
     }
 }
