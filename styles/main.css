@@ -60,6 +60,18 @@
     width: 510px;
 }
 
+.serv {
+    max-width: 300px;
+    margin-right: 60px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    height: 430px;
+    width: 100%;
+    background-color: #EFF5FF;
+}
+
 .info_container_ser {
     display: flex;
     align-items: center;
@@ -82,7 +94,49 @@
     background-color: #5787C6;
     color: white;
     margin-top: 200px;
-    margin-bottom: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px 0;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.links a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    margin: 5px 0;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.fphone {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.fphone_number {
+    margin-left: 10px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: white;
+}
+
+.fphone_number2 {
+    margin-left: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
 }
 
 
@@ -114,5 +168,20 @@
     .custom_install {
         width: auto;
     }
+
+    .serv {
+        margin-right: 0;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .fphone {
+        justify-content: center;
+    }
     
+    .links {
+        margin: 40px 0;
+    }
 }
