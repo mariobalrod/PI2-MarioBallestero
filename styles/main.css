@@ -1,10 +1,9 @@
 /* CAROUSEL CSS */
 .presentacion { 
-    margin-top: 50px;
+    margin-top: 200px;
     padding: 50px;
     width: 1010px;
 }
-
 
 /* CSS PARA CARTA DE CONTACTO // MODALES (POPUP) */
 .custom_body {
@@ -16,9 +15,9 @@
 }
 
 .button_modal {
-    position:absolute;
-    bottom:0;
-    right:0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
     margin: 50px;
     padding: 10px 15px;
 }
@@ -44,6 +43,50 @@
     color: #026CBB;
 }
 
+/* INFO SECCIONES */
+.info-container {
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info {
+    max-width: 480px;
+    margin-left: 50px;
+}
+
+.custom_install {
+    width: 510px;
+}
+
+.info_container_ser {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.custom_services {
+    width: 300px;
+}
+
+.info_ser {
+    background-color: white;
+    max-width: 300px;
+    margin-top: 30px;
+}
+
+/* Footer */
+.footer {
+    background-color: #5787C6;
+    color: white;
+    margin-top: 200px;
+    margin-bottom: 0;
+}
+
+
+
 /* CODIGO PARA RESPONSIVE */
 @media only screen and (max-width: 1000px) {
     .presentacion {
@@ -54,4 +97,22 @@
     .button_modal {
         margin: 20px;
     }
+
+    .info-container {
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .info {
+        max-width: 480px;
+        margin-top: 50px;
+        margin-left: 0;
+    }
+
+    .custom_install {
+        width: auto;
+    }
+    
 }

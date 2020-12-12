@@ -1,3 +1,3 @@
 # PI2 
 
-[Funealgaba](https://mariobalrod.github.io/funealgaba/)
+[Web](https://mariobalrod.github.io/PI2-MarioBallestero/)
